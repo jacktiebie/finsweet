@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+
+/* hero and header */
+.hero {
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(9, 9, 122);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10%;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__cta {
+    margin-left: 30px;
+    margin-right: 10%;
+}
+
+.hero__div {
+    color: white;
+}
+
+.hero__title {
+font-size: 3vw;
+}
+
+.hero__subtitle {
+padding: 2vw 0;
+
+}
+
+.hero__cta {
+    background-color: lightyellow;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+.hero__pricing {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-grid {
+    display: grid;
+    gap: 8rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10% 9.9%;
+}
+
+.hero__image {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.topnav .icon {
+    display: none;
+  }
+
+
+  /* */ 
+
+  .how {
+    height: 50vh;
+    width: 100vw;
+   
+  }
+
+  .how_work h2 {
+      font-size: 2.5vw;
+  }
+  .how_work p {
+    margin-top: 5%;
+  }
+
+  .how-grid {
+    display: grid;
+    grid-template-columns: 30% 25% 25%;
+    margin: 5% 10%;
+    grid-auto-rows: 50%;
+}
+
+  .grid-row-span-2 {
+      grid-row: span 2;
+
+  }
+
+.how__img {
+    width: 16%;
+}
+
+.how__title {
+    font-size: 1.5vw;
+}
+
+.how__subtext {
+    font-size: 1vw;
+    margin-top: 2%;
+    
+}
+/* view */
+.view {
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.view-grid {
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+    grid-template-rows: 2fr, 1fr;
+
+}
+
+.view-grid-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.view-grid-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.view-grid-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
+.view h2 {
+    font-size: 2.5vw;
+ 
+}
+
+.features {
+    height: 130vh;
+}
+
+.features-grid {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 26% 26% 26%;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+.grid-item {
+    background-color: rgb(211, 209, 209);
+    padding: 2em;
+}
+
+.grid-item h4 {
+    margin-top: 4%;
+}
+
+.grid-item p {
+    margin-top: 6%;
+}
+
+.features_subtitle {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.features_title {
+    text-align: center;
+    margin: 0.5% 35%;
+    font-size: 2.5vw;
+
+}
+
+.review {
+    height: 70vh;
+    width: 100vw;
+    background-color: rgba(211, 211, 211, 0.177);
+}
+.review-grid {
+    display: grid;
+    grid-template-columns: 20% 53.4%;
+    justify-content: center;
+    gap: 4rem;
+}
+.review-grid-item-1 {
+    margin-top: 60%;
+}
+
+.review-grid-item-1 p {
+    margin-top: 6%;
+}
+.review-grid-item-2 {
+    margin-top: 23%;
+    display: block;
+}
+.review-grid-item-2 p {
+    font-size: 20px;
+}
+.review-grid-item-2 img {
+    border-radius: 50%;
+}
+.review_person {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+
+
+
+
+.review_text_flex {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+
+.faq {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq__container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 8%;
+    padding: 0 1.5rem;
+}
+
+.faq__accordion__item {
+background-color: white;
+border-radius: .4rem;
+margin-bottom: 1rem;
+padding: 1rem;
+box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
+}
+
+.accordion-link {
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link i {
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.accordion-link .ionremove {
+    display: none;
+}
+
+.answer {
+     max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    transition: max-height 650ms;
+}
+
+
+.answer p {
+    color: gray;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.faq__accordion__item:target .answer {
+    max-height: 20rem;
+}
+.faq__accordion__item:target .accordion-link .ionadd {
+    display: none;
+}
+
+.faq__accordion__item:target .accordion-link .ionremove {
+    display: block;
+}
+
+
+.inquiry {
+    height: 130vh;
+    width: 100vw;
+    background: #fff;
+    color: white;
+}
+
+.inquiry-grid {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    background-color: #1C1E53;
+     margin: 10%;
+    height: 100vh;
+}
+
+.inquiry_1 {
+    background-image: url('../images/inquiry_background.png');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    position: relative;
+}
+
+.inquiry_1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #1c1e536c;
+}
+
+.inquiry_1 h3 {
+    color: #FFF;
+    position: relative;
+    text-align: left;
+    font-size: 3vw;
+    padding-top: 20%;
+    padding-left: 18%;
+    padding-right: 18%;
+
+}
+
+.inquiry_1 p {
+    color: #FFF;
+    position: relative;
+    text-align: left;
+    margin: 8%;
+    margin-left: 18%;
+    margin-right: 15%;
+}
+
+.inquiry_2 {
+display: flex;
+flex-direction: column;
+padding-left: 23%;
+}
+.inquiry_2 h4 {
+    padding-top: 40%;
+}
+
+.inquiry_2 p {
+    padding-top: 10%;
+}
+.inquiry_2 input {
+    margin-bottom: 4%;
+}
+
+.inq {
+    padding: 0.7rem 6rem 0.7rem 2rem;
+    background-color: rgba(173, 30, 30, 0);
+    border-radius: 0.5rem;
+    border: 1.2px solid rgba(128, 128, 128, 0.649);
+    color: gray;
+}
+
+.inquiry__submit {
+    background-color: rgba(255, 255, 0, 0.96);
+    padding: 0.7rem 6.7rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 5%;
+}
+
+#inputName {
+    margin-top: 20%;
+}
+.review-grid-item-3 {
+    display: none;
+    background-color: blue;
+}
+
+
+
+.blog {
+    height: 80vh;
+    width: 100vw;
+    margin: 0.5rem 10%;
+}
+
+.blog__grid {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(3, 20.5rem);
+    
+}
+
+.blog__grid img {
+    max-width: 150%;
+    height: auto;
+}
+
+.blog__grid a {
+    text-decoration: none;
+}
+.blog__grid__item {
+    padding-right: 30px;
+}
+
+.blog__date {
+    font-size: 0.65rem;
+    margin: 4% 0;
+    color: rgb(68, 68, 68);
+}
+
+.blog__grid__item h3 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.blog_description {
+    font-size: 0.8rem;
+    margin-top: 3%;
+    color: gray;
+}
+
+.blog_cta {
+    font-size: 1rem;
+    margin-top: 4.5%;
+    color: black;
+}
+
+.footer {
+    height: 40vh;
+    width: 100vw;
+    background-color:rgb(9, 9, 122);
+    display: grid;
+    grid-template-columns: 40% 40%;
+    color: white;
+    justify-content: center;
+}
+
+
+.footer-left-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 11%;
+    padding: 1rem;
+      background-color:rgba(255, 255, 0, 0.96);
+      overflow: hidden;
+}
+.footer-left-container h3 {
+font-size: 1rem;
+font-weight: 500;
+color: black;
+}
+.footer-left-container p {
+    font-size: 0.9rem;
+color:rgb(95, 95, 95)
+    }
+
+    .footer-left h2 {
+        padding-top: 10%;
+    }
+
+    .footer-left p {
+        padding-top: 3%;
+    }
+
+    .footer {
+    }
+
+.footer-left-des {
+    font-size: 0.9rem;
+    color: rgb(216, 215, 215);
+    margin-left: 0.5%;
+    padding-right: 30%;
+}
+
+
+.footer-right {
+margin-left: 40%;
+margin-top: 10%;
+}
+
+.footer-right h2 {
+
+}
+
+.footer-right p {
+    margin-top: 3%;
+    color: rgb(216, 215, 215);
+}
